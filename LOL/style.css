@@ -126,19 +126,6 @@ header, .main {
 	-ms-transform: translateX(220px);
 	transform: translateX(220px);
 }
-    </style>
-
-    <script>
-  window.console = window.console || function(t) {};
-</script>
-
-    
-    
-    <script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
 #nomeApp{
 	height: 38px;
 	width: 90px;
