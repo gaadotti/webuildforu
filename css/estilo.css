@@ -71,4 +71,10 @@ body{
 		width: 90%;
 		position: static;
 	}
+	#banner{
+		width: 100%;
+	}
+	#banner img{
+		width: 65%;
+	}
 }
