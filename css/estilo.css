@@ -2,6 +2,13 @@ body{
 	margin: 0;
 	font-family: 'Roboto';
 	background-color: #009ACD;	
+}#banner{
+	width: 399px;
+	height: 105px;
+	margin: 0 auto;
+}
+#bannerMenu{
+	margin-left: 3	0px;
 }
 #home {
     background-color: #047bbc;
