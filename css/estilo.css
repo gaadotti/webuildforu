@@ -58,13 +58,18 @@ body{
 #logar input[type="text"]:focus, #logar input[type="password"]:focus, #cadastrar input[type="text"]:focus, #cadastrar input[type="password"]:focus{
 	border-bottom: 2px solid #009ACD;	
 }
-
+#linkCadastrar{
+	float: right;
+}
 /*  responsivo  */
 @media screen and (max-width: 600px){
 	#cadastrar, #logar{
 		width: 100%;
 		margin: initial;
 		margin-bottom: 10px;
+	}
+	#cadastrar{
+		display: none;
 	}
 	#forms{
 		height: 605px;
