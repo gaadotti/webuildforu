@@ -10,21 +10,21 @@ body{
     border-bottom: 2px solid #1874CD;
     margin-left: 0px;
 }
-#cadastrar, #logar{
-	background-color: white;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+#forms{
+	height: 300px;
+	width: 628px;
 	margin:auto;
 	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+#cadastrar, #logar{
+	background-color: white;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);	
   	padding: 7px;
-	height: 200px;
-	width: 200px;
-	border-left: 6px solid red;
-}
-#cadastrar{
-  	left: 0; bottom: 27px; right: 0;
-}
-#logar{
-  	top: 0; left: 0; bottom: 0; right: 0;
+  	margin: 0 7px 0 7px;
+  	float: left;
+	height: 300px;
+	width: 300px;
 }
 #logar input, #cadastrar input{
 	margin: 4px;
