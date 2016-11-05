@@ -52,7 +52,7 @@ body{
 }
 
 /*  responsivo  */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
 	#cadastrar, #logar{
 		width: 90%;
 	}
